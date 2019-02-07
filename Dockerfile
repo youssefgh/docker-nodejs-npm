@@ -1,7 +1,7 @@
-FROM alpine:3.8
+FROM alpine:3.9
 
 MAINTAINER Youssef GHOUBACH <ghoubach.youssef@gmail.com>
 
 RUN apk add --update \
-    nodejs=8.11.4-r0 \
-    npm=8.11.4-r0
+    nodejs=10.14.2-r0 \
+    npm=10.14.2-r0
