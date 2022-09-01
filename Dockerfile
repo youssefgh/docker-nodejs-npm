@@ -1,7 +1,7 @@
-FROM alpine:3.12
+FROM alpine:3.16
 
 MAINTAINER Youssef GHOUBACH <ghoubach.youssef@gmail.com>
 
 RUN apk add --update \
-    nodejs=12.18.3-r0 \
-    npm=12.18.3-r0
+    nodejs=16.16.0-r0 \
+    npm=8.10.0-r0
